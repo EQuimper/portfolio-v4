@@ -2,7 +2,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Kano-regular; }
+  font-family: 'Lato', sans-serif; }
 
 .nav {
   height: 3em;
@@ -33,7 +33,7 @@ body {
   .nav .name {
     opacity: 0.4;
     font-size: 1.125em;
-    font-family: LucidaGrande;
+    font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     letter-spacing: 0.5px; }
 
@@ -49,7 +49,7 @@ body {
   #intro .intro-background .title {
     color: #ffffff;
     margin-left: 5%;
-    font-family: LucidaGrande;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
     color: #FFFFFF;
     letter-spacing: 0.22px; }
@@ -66,7 +66,7 @@ body {
       width: 1.5em;
       color: #424242; }
     #about .about-intro .about-title {
-      font-family: LucidaGrande;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.25em;
       font-weight: 400;
       color: #424242; }
@@ -97,7 +97,7 @@ body {
     color: #424242;
     font-weight: 400; }
   #work h4 {
-    font-family: LucidaGrande;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
     color: #424242;
     font-weight: 400; }
@@ -113,7 +113,7 @@ body {
     margin: 0;
     color: #ffffff;
     text-align: center;
-    font-family: LucidaGrande;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.125em; }
   #project-1 .project-image {
     position: absolute;
@@ -215,7 +215,7 @@ footer {
   footer h4 {
     margin: 0;
     margin-bottom: 1%;
-    font-family: LucidaGrande;
+    font-family: 'Montserrat', sans-serif;
     align-self: flex-end;
     padding: 0;
     margin-left: 2%;
@@ -271,7 +271,7 @@ footer {
       color: #ffffff;
       margin-left: 5%;
       font-size: 3em;
-      font-family: LucidaGrande;
+      font-family: 'Montserrat', sans-serif;
       color: #FFFFFF;
       letter-spacing: 0.22px; }
   #about {
@@ -286,7 +286,7 @@ footer {
         width: 2em;
         color: #424242; }
       #about .about-intro .about-title {
-        font-family: LucidaGrande;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.50em;
         font-weight: 400;
         color: #424242; }
@@ -310,7 +310,7 @@ footer {
       margin: 0;
       color: #ffffff;
       text-align: center;
-      font-family: LucidaGrande;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.5em; }
     #project-1 .project-image {
       position: absolute;
