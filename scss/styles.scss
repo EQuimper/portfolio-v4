@@ -34,6 +34,7 @@ body {
       list-style: none;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       flex-direction: row;
       li {
         a {
@@ -316,6 +317,37 @@ footer {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .nav {
+    .nav-icon {
+      display: none;
+    }
+
+    .nav-links-container {
+      width: 55%;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        li {
+          a {
+            text-decoration: none;
+            color: $white;
+            font-size: 1.1em;
+            font-weight: 400;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
 @media screen and (min-width: 650px) {
   .nav {
     .nav-icon {
@@ -323,7 +355,7 @@ footer {
     }
 
     .nav-links-container {
-      width: 25%;
+      width: 35%;
       ul {
         list-style: none;
         display: flex;
@@ -355,6 +387,33 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+  .nav {
+    .nav-icon {
+      display: none;
+    }
+
+    .nav-links-container {
+      width: 25%;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        li {
+          a {
+            text-decoration: none;
+            color: $white;
+            font-size: 1.3em;
+            font-weight: 400;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
   #intro {
     .intro-background {
       height: 300px;
