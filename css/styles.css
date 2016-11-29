@@ -251,10 +251,16 @@ footer {
       .nav .nav-links-container ul li a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 1.1em;
+        font-size: 0.9em;
         font-weight: 400; }
         .nav .nav-links-container ul li a:hover {
           text-decoration: underline; }
+  .nav .name {
+    opacity: 0.4;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.5px; }
   #about .about-text {
     margin-top: 1.5em;
     margin-left: 5%;

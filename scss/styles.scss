@@ -334,7 +334,7 @@ footer {
           a {
             text-decoration: none;
             color: $white;
-            font-size: 1.1em;
+            font-size: 0.9em;
             font-weight: 400;
 
             &:hover {
@@ -343,6 +343,13 @@ footer {
           }
         }
       }
+    }
+    .name {
+      opacity: 0.4;
+      font-size: 0.9em;
+      font-family: 'Montserrat', sans-serif;
+      color: #FFFFFF;
+      letter-spacing: 0.5px;
     }
   }
   #about {
